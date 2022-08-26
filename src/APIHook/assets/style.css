@@ -1,0 +1,95 @@
+#newsType{
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+form .my-2{
+  display: flex;
+}
+
+form .form-label{
+  width :200px;
+  align-self: center;
+  font-size: larger;
+}
+
+form .btn{
+  margin-left: 20px;
+}
+
+main#content{
+  margin: 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:center;
+}
+
+.TitleBerita{
+  font-size: 36px;
+  font-weight: 600;
+  border-bottom: 1px Solid #ccc;
+  text-align: start;
+  margin-bottom: 50px;
+}
+
+.card{
+  align-self: center;
+  margin: 10px 10px;
+  height: fit-content ;
+  height: 500px;
+}
+
+.card:hover{
+  background-color: #eeeeee;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top{
+  height: 180px;
+}
+
+.card-title{
+  overflow: hidden;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.card-subtitle{
+  text-align: left;
+}
+
+.card-text{
+  text-align: justify;
+  overflow: hidden;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.nav-link{
+  align-self: flex-start;
+}
+
+.tanggal{
+  font-size: 14px;
+}
+
+.isi{
+  font-size: 12px;
+}
+
+
+.footer{
+  margin-top: 50px;
+}
